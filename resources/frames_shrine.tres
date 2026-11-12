@@ -1,0 +1,51 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/props/shrine.png" id="1_ij774"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tl6fq"]
+atlas = ExtResource("1_ij774")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sd8mp"]
+atlas = ExtResource("1_ij774")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7cxrr"]
+atlas = ExtResource("1_ij774")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnfti"]
+atlas = ExtResource("1_ij774")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0idph"]
+atlas = ExtResource("1_ij774")
+region = Rect2(0, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tl6fq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sd8mp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7cxrr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnfti")
+}],
+"loop": 1,
+"name": &"lit",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0idph")
+}],
+"loop": 0,
+"name": &"unlit",
+"speed": 1.0
+}]

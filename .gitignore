@@ -1,0 +1,39 @@
+# ---- Godot 4 ----
+# Editor cache and imported-asset data, regenerated on open (`godot --headless --import`).
+# Keep the *.import and *.uid files: they pair with the assets/scripts and hold stable IDs.
+.godot/
+/android/
+*.translation
+
+# Exports
+/export/
+/builds/
+
+# ---- Python asset pipeline (tools/) ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated working files, not part of the game.
+# Raw AI audio downloads (large; they are the cache that avoids paying twice):
+tools/_audio_tmp/
+# Contact sheets and debug screenshots:
+tools/previews/
+tools/build/audio_cost.log
+# NOTE: tools/build/*.json is NOT ignored. The game and scripts/editor/build_resources.gd read it.
+
+# ---- Secrets ----
+# API keys must never be committed. generators read OPENROUTER_API_KEY from the environment.
+.env
+.env.*
+*.key
+*.pem
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,116 @@
+{
+ "cell": 32,
+ "body": [
+  16,
+  24
+ ],
+ "body_offset": [
+  8,
+  6
+ ],
+ "feet_y": 29,
+ "animations": {
+  "idle_down": {
+   "row": 0,
+   "frames": 2,
+   "loop": true,
+   "fps": 3
+  },
+  "idle_up": {
+   "row": 1,
+   "frames": 2,
+   "loop": true,
+   "fps": 3
+  },
+  "idle_left": {
+   "row": 2,
+   "frames": 2,
+   "loop": true,
+   "fps": 3
+  },
+  "idle_right": {
+   "row": 3,
+   "frames": 2,
+   "loop": true,
+   "fps": 3
+  },
+  "walk_down": {
+   "row": 4,
+   "frames": 4,
+   "loop": true,
+   "fps": 8
+  },
+  "walk_up": {
+   "row": 5,
+   "frames": 4,
+   "loop": true,
+   "fps": 8
+  },
+  "walk_left": {
+   "row": 6,
+   "frames": 4,
+   "loop": true,
+   "fps": 8
+  },
+  "walk_right": {
+   "row": 7,
+   "frames": 4,
+   "loop": true,
+   "fps": 8
+  },
+  "attack_down": {
+   "row": 8,
+   "frames": 3,
+   "loop": false,
+   "fps": 14
+  },
+  "attack_up": {
+   "row": 9,
+   "frames": 3,
+   "loop": false,
+   "fps": 14
+  },
+  "attack_left": {
+   "row": 10,
+   "frames": 3,
+   "loop": false,
+   "fps": 14
+  },
+  "attack_right": {
+   "row": 11,
+   "frames": 3,
+   "loop": false,
+   "fps": 14
+  },
+  "hurt_down": {
+   "row": 12,
+   "frames": 1,
+   "loop": false,
+   "fps": 1
+  },
+  "hurt_up": {
+   "row": 13,
+   "frames": 1,
+   "loop": false,
+   "fps": 1
+  },
+  "hurt_left": {
+   "row": 14,
+   "frames": 1,
+   "loop": false,
+   "fps": 1
+  },
+  "hurt_right": {
+   "row": 15,
+   "frames": 1,
+   "loop": false,
+   "fps": 1
+  },
+  "death": {
+   "row": 16,
+   "frames": 3,
+   "loop": false,
+   "fps": 5
+  }
+ }
+}

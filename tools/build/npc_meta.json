@@ -1,0 +1,230 @@
+{
+ "elder": {
+  "cell": [
+   16,
+   24
+  ],
+  "feet_y": 23,
+  "animations": {
+   "idle_down": {
+    "row": 0,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_up": {
+    "row": 1,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_left": {
+    "row": 2,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_right": {
+    "row": 3,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "walk_down": {
+    "row": 4,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_up": {
+    "row": 5,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_left": {
+    "row": 6,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_right": {
+    "row": 7,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   }
+  }
+ },
+ "shopkeeper": {
+  "cell": [
+   16,
+   24
+  ],
+  "feet_y": 23,
+  "animations": {
+   "idle_down": {
+    "row": 0,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_up": {
+    "row": 1,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_left": {
+    "row": 2,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_right": {
+    "row": 3,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "walk_down": {
+    "row": 4,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_up": {
+    "row": 5,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_left": {
+    "row": 6,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_right": {
+    "row": 7,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   }
+  }
+ },
+ "child": {
+  "cell": [
+   16,
+   24
+  ],
+  "feet_y": 23,
+  "animations": {
+   "idle_down": {
+    "row": 0,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_up": {
+    "row": 1,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_left": {
+    "row": 2,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_right": {
+    "row": 3,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "walk_down": {
+    "row": 4,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_up": {
+    "row": 5,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_left": {
+    "row": 6,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_right": {
+    "row": 7,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   }
+  }
+ },
+ "cat": {
+  "cell": [
+   16,
+   16
+  ],
+  "feet_y": 15,
+  "animations": {
+   "idle_down": {
+    "row": 0,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_up": {
+    "row": 1,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_left": {
+    "row": 2,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "idle_right": {
+    "row": 3,
+    "frames": 2,
+    "loop": true,
+    "fps": 2
+   },
+   "walk_down": {
+    "row": 4,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_up": {
+    "row": 5,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_left": {
+    "row": 6,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   },
+   "walk_right": {
+    "row": 7,
+    "frames": 4,
+    "loop": true,
+    "fps": 8
+   }
+  }
+ }
+}

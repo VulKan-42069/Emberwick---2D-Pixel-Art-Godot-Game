@@ -1,0 +1,86 @@
+{
+ "tiles": {
+  "cell": 16,
+  "columns": 8,
+  "order": [
+   "floor_a",
+   "floor_b",
+   "floor_c",
+   "wall_plain",
+   "wall_window",
+   "wall_wains",
+   "side_left",
+   "side_right",
+   "bottom_band",
+   "door_exit"
+  ]
+ },
+ "props": {
+  "bed_asleep": [
+   0,
+   0,
+   24,
+   32
+  ],
+  "bed_sit": [
+   32,
+   0,
+   24,
+   32
+  ],
+  "bed_empty": [
+   64,
+   0,
+   24,
+   32
+  ],
+  "desk": [
+   96,
+   0,
+   32,
+   24
+  ],
+  "hearth": [
+   128,
+   0,
+   32,
+   32
+  ],
+  "shelf": [
+   0,
+   32,
+   32,
+   32
+  ],
+  "rug": [
+   32,
+   32,
+   32,
+   24
+  ],
+  "table": [
+   64,
+   32,
+   16,
+   16
+  ],
+  "chair": [
+   80,
+   32,
+   16,
+   16
+  ],
+  "plant": [
+   96,
+   32,
+   16,
+   24
+  ],
+  "trunk": [
+   112,
+   32,
+   16,
+   16
+  ]
+ }
+}

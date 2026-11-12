@@ -1,0 +1,93 @@
+{
+ "village": {
+  "cell": 16,
+  "columns": 8,
+  "order": [
+   "roof_tl",
+   "roof_t",
+   "roof_tr",
+   "roof_ml",
+   "roof_m",
+   "roof_mr",
+   "roof_bl",
+   "roof_b",
+   "roof_br",
+   "roof_chimney",
+   "wall_up",
+   "wall_up_window",
+   "wall_up_left",
+   "wall_up_right",
+   "wall_low",
+   "wall_low_left",
+   "wall_low_right",
+   "door_top",
+   "door_bottom",
+   "fence_h",
+   "fence_h_left",
+   "fence_h_right",
+   "fence_v",
+   "bridge_h",
+   "bridge_v"
+  ]
+ },
+ "ruin": {
+  "cell": 16,
+  "columns": 8,
+  "order": [
+   "floor_a",
+   "floor_b",
+   "floor_cracked",
+   "floor_moss",
+   "wall_cracked",
+   "wall_doorway",
+   "stairs_down",
+   "pit"
+  ]
+ },
+ "torch": {
+  "frames": 4,
+  "fps": 8,
+  "cell": 16
+ },
+ "village_props": {
+  "well": [
+   0,
+   0,
+   32,
+   32
+  ],
+  "barrel": [
+   32,
+   0,
+   16,
+   16
+  ],
+  "crate": [
+   48,
+   0,
+   16,
+   16
+  ],
+  "lamp_post": {
+   "cell": [
+    16,
+    32
+   ],
+   "x0": 64,
+   "frames": 3,
+   "note": "0 unlit, 1-2 lit flicker"
+  }
+ },
+ "ruin_props": {
+  "cell": [
+   16,
+   24
+  ],
+  "order": [
+   "pillar",
+   "pillar_broken",
+   "rubble",
+   "cobweb"
+  ]
+ }
+}

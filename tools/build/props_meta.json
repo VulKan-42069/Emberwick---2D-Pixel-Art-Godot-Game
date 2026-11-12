@@ -1,0 +1,62 @@
+{
+ "props": {
+  "cell": 16,
+  "columns": 8,
+  "order": [
+   "bush",
+   "bush_berries",
+   "bush_cut",
+   "rock",
+   "rock_small",
+   "push_block",
+   "pot",
+   "pot_broken",
+   "chest_closed",
+   "chest_open",
+   "signpost",
+   "door_locked",
+   "door_open",
+   "floor_switch_up",
+   "floor_switch_down"
+  ]
+ },
+ "trees": {
+  "large": [
+   32,
+   40
+  ],
+  "small": [
+   24,
+   32
+  ],
+  "trunk_base_y": {
+   "large": 38,
+   "small": 30
+  }
+ },
+ "shrine": {
+  "cell": 32,
+  "frames": {
+   "unlit": 0,
+   "lit": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "lit_fps": 6
+ },
+ "items": {
+  "cell": 16,
+  "order": [
+   "ember_shard",
+   "heart",
+   "coin",
+   "key",
+   "potion",
+   "sword",
+   "lantern"
+  ]
+ }
+}

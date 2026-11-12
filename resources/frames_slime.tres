@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/enemies/slime.png" id="1_065j5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3q25o"]
+atlas = ExtResource("1_065j5")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kgcli"]
+atlas = ExtResource("1_065j5")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dwlct"]
+atlas = ExtResource("1_065j5")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5dnjd"]
+atlas = ExtResource("1_065j5")
+region = Rect2(48, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3q25o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kgcli")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dwlct")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5dnjd")
+}],
+"loop": 1,
+"name": &"hop",
+"speed": 6.0
+}]
