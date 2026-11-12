@@ -30,6 +30,8 @@ func _init() -> void:
 	DirAccess.make_dir_recursive_absolute("res://resources")
 	_build_tileset()
 	_build_frames()
+	# The exported game cannot read tools/ (.gdignore), so ship the one JSON it needs at runtime.
+	DirAccess.copy_absolute(META + "village_meta.json", "res://resources/village_meta.json")
 	print("resources built")
 	quit()
 

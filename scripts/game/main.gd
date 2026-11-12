@@ -72,7 +72,7 @@ func _ready() -> void:
 	rng.seed = 7
 	Player.ensure_input()
 	tileset = load("res://resources/tileset.tres")
-	var vmeta: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://tools/build/village_meta.json"))
+	var vmeta: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://resources/village_meta.json"))
 	vorder = vmeta.village.order
 	for n in ["ground", "sand", "dirt", "cobble", "water", "cliff", "floor", "ruinwall", "walls", "decor"]:
 		var l := TileMapLayer.new()
